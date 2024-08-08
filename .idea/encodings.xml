@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/FileSearch-base/FileSearch-base-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-base/FileSearch-base-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-base/FileSearch-base-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-base/FileSearch-base-data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/FileSearch-starter-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/FileSearch-starter-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/FileSearch-starter-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/FileSearch-starter-jpa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/FileSearch-starter-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/FileSearch-starter-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FileSearch-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
