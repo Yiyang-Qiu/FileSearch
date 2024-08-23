@@ -27,17 +27,15 @@ import static com.FileSearch.jpa.elasticsearch.FileSearchConstant.mapping;
 @Service
 public class ElasticSearchService {
 
-    private RestHighLevelClient client;
 
     @Autowired
     private ObjectMapper objectMapper;
 
     private static final String INDEX = "file_info_index";
 
-    //设置rest client
-    public void setClient() {
-        this.client = new RestHighLevelClient(RestClient.builder(HttpHost.create("http://127.0.0.1:9200")));
-    }
+    //设置并注入rest client
+    @Autowired
+    private RestHighLevelClient client;
 
     //创建索引库
     public void createIndex() throws IOException {
