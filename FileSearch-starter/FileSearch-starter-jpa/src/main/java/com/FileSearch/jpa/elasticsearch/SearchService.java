@@ -37,7 +37,7 @@ public class SearchService {
     @Autowired
     private RestHighLevelClient client;
 
-    public List<String> suggestion(String prefix){
+    public List<String> getSuggestion(String prefix){
         try {
             //创建搜索请求
             SearchRequest request = new SearchRequest("file_info_index");
