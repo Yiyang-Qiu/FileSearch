@@ -25,7 +25,7 @@ public class FileInfo {
     private Date createdTime;  // 创建时间
     private Date modifiedTime; // 修改时间
     private String filePath;   // 文件路径
-    private boolean isPublic;  // 是否公开
+    private Boolean isPublic;  // 是否公开
     private List<String> suggestion; ////储存所有相似的词
 
     public FileInfo(Long fileId, String fileName, String fileType, long fileSize, Date createdTime, Date modifiedTime, String filePath, boolean isPublic) {
@@ -37,7 +37,7 @@ public class FileInfo {
         this.modifiedTime = modifiedTime;
         this.filePath = filePath;
         this.isPublic = isPublic;
-        this.suggestion = Arrays.asList(this.fileName);
+        this.suggestion = Arrays.asList(this.fileName, this.fileType);
     }
 }
 

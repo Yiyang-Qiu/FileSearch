@@ -1,8 +1,7 @@
 package com.FileSearch.jpa.elasticsearch;
 
 public class FileSearchConstant {
-    public static final String mapping = "PUT /file_info_index\n" +
-            "{\n" +
+    public static final String MAPPING = "{\n" +
             "  \"settings\": {\n" +
             "    \"number_of_shards\": 3,\n" +
             "    \"number_of_replicas\": 1,\n" +
@@ -31,7 +30,8 @@ public class FileSearchConstant {
             "    }\n" +
             "  },\n" +
             "  \"mappings\": {\n" +
-            "    \"properties\": {\n" +
+            "    \"type_name\":{\n" +
+            "      \"properties\": {\n" +
             "      \"fileId\": {\n" +
             "        \"type\": \"keyword\"\n" +
             "      },\n" +
@@ -41,8 +41,7 @@ public class FileSearchConstant {
             "        \"search_analyzer\": \"ik_smart\"\n" +
             "      },\n" +
             "      \"fileType\": {\n" +
-            "        \"type\": \"keyword\",\n" +
-            "        \"index\": false\n" +
+            "        \"type\": \"keyword\"\n" +
             "      },\n" +
             "      \"fileSize\": {\n" +
             "        \"type\": \"long\",\n" +
@@ -66,6 +65,8 @@ public class FileSearchConstant {
             "        \"analyzer\": \"completion_analyzer\"\n" +
             "      }\n" +
             "    }\n" +
+            "    }\n" +
+            "    \n" +
             "  }\n" +
             "}";
 }

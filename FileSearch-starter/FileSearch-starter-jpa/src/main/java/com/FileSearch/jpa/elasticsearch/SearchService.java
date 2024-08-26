@@ -87,7 +87,8 @@ public class SearchService {
             if(keyword == null || keyword.isEmpty()){
                 booleanQuery.must(QueryBuilders.matchAllQuery());
             }else{
-                booleanQuery.must(QueryBuilders.matchQuery("all", params.getKeyword()));
+                System.out.println("keyword: " + keyword);
+                booleanQuery.must(QueryBuilders.matchQuery("fileName", keyword));
             }
 
 
